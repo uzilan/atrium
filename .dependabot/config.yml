@@ -1,0 +1,6 @@
+version: 1
+update_configs:
+  - package_manager: "java:gradle"
+    directory: "/samples/jvm/junit5"
+    update_schedule: "daily"
+
