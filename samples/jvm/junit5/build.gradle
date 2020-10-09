@@ -25,7 +25,7 @@ dependencies {
     // junit5 requires jdk8, define dependency to stdlib-jdk at least in test
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
-    implementation 'commons-io:commons-io:2.0'
+    implementation 'commons-io:commons-io:2.8.0'
 
     // setup for Atrium:
     // for infix-api -> change artifact-id to 'atrium-infix-en_GB'
