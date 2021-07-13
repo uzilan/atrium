@@ -25,7 +25,7 @@ dependencies {
     // junit5 requires jdk8, define dependency to stdlib-jdk at least in test
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
-    testCompile 'software.amazon.awssdk:apache-client:2.13.32'
+    testCompile 'software.amazon.awssdk:apache-client:2.16.100'
 
     // setup for Atrium:
     // for infix-api -> change artifact-id to 'atrium-infix-en_GB'
